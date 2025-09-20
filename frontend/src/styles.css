@@ -1,0 +1,8 @@
+html, body, #root { height:100%; margin:0; font-family: Inter, system-ui, sans-serif; }
+.app { display:flex; height:100%; }
+.map-container { flex:1; position:relative; }
+.sidebar { width:360px; background:#0b1220; color:#fff; padding:12px; box-sizing:border-box; }
+.legend { background: rgba(255,255,255,0.9); padding:8px; border-radius:6px; color:#000; }
+.mini-map { position:absolute; top:12px; right:12px; width:240px; height:160px; border:2px solid rgba(0,0,0,0.4); z-index:1000; }
+.controls { margin-bottom:12px; }
+button { padding:8px 12px; border-radius:6px; cursor:pointer; }
